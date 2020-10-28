@@ -36,7 +36,7 @@ for a in range (numberOfCom):
 print("size of Coum :")
 print(sizes)
 
-print("probs :")
+print("probs a:")
 print(np.matrix(probs))
 
 BlockGraph = nx.stochastic_block_model(sizes, probs, seed=364)
